@@ -1,0 +1,13 @@
+{
+  "type": "project",
+  "name": "1314fire/chainwallet-php-sdk",
+  "homepage": "https://github.com/1314fire/chainwallet-php-sdk",
+  "description": "chain wallet sdk",
+  "license": "MIT",
+  "keywords": [
+    "chainwallet-php-sdk"
+  ],
+  "require": {
+    "php": ">=5.4"
+  }
+}
