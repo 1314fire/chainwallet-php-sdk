@@ -85,11 +85,10 @@ class method
         ));
         return $res;
     }
-    public function getUserBalance($app_id, $merchant_id, $uid)
+    public function getUserBalance($app_id, $uid)
     {
         $res = $this->doPost("/getUserBalance", array(
             "app_id" => $app_id,
-            "merchant_id" => $merchant_id,
             "uid" => $uid
         ));
         return $res;

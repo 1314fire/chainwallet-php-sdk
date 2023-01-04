@@ -44,7 +44,7 @@
     var_dump($res);
 
     # 获取用户余额
-    $res = $method->getUserBalance("20202112233", "1", '104725');
+    $res = $method->getUserBalance("20202112233", '104725');
     var_dump($res);
 
     # 获取提币订单详情
